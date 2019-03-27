@@ -2,22 +2,22 @@
   <v-container>
     <v-layout text-xs-center wrap>
       <v-flex xs12>
-        <v-img
-          :src="require('../assets/logo.svg')"
-          class="my-3"
-          contain
-          height="200"
-        ></v-img>
+        <v-avatar size="200px">
+          <v-img
+            :src="require('../assets/face.jpg')"
+            class="my-3"
+            contain
+          ></v-img>
+        </v-avatar>
       </v-flex>
 
       <v-flex mb-4>
         <v-btn color="blue">p2p</v-btn>
         <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to GO FUCK YOURSELF
+          chris hartgerink 🤓
         </h1>
         <p class="subheading font-weight-regular">
-          For help and collaboration with other Vuetify developers,
-          <br />please join our online
+          just another rando making a webpage
           <a href="https://community.vuetifyjs.com" target="_blank"
             >Discord Community</a
           >
