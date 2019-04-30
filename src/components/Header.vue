@@ -63,6 +63,25 @@
                     alt="Twitter"
                   ></v-img
                 ></a>
+                <!-- <a href="/assets/cv.pdf"> -->
+                <!--   <v-img -->
+                <!--     :src="require('../assets/noun_Chuvash_1044177.png')" -->
+                <!--     max-height="40px" -->
+                <!--     contain="true" -->
+                <!--     alt="Twitter" -->
+                <!--   ></v-img -->
+                <!--      ></a> -->
+                <a
+                  href="https://scholar.google.de/citations?hl=en&user=FjH-BUcAAAAJ&view_op=list_works&sortby=pubdate"
+                >
+                  <v-img
+                    :src="require('../assets/noun_scholar_1199156.png')"
+                    max-height="40px"
+                    contain="true"
+                    alt="Google Scholar"
+                  ></v-img
+                ></a>
+
                 <a href="https://github.com/chartgerink">
                   <v-img
                     :src="require('../assets/noun_code_1398972_FFFFFF.png')"

@@ -1,5 +1,7 @@
 # chjh
 
+This is the repo that contains my personal webpage. It is hosted through Google Cloud Platform as a Kubernetes container. In order to deploy on GCP you need the `gcloud` SDK. 
+
 ## Project setup
 ```
 npm install
@@ -23,6 +25,13 @@ npm run test
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+### Deploy to GCP
+
+```
+gcloud init        # if not done before
+gcloud app deploy
 ```
 
 ### Customize configuration
