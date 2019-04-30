@@ -90,7 +90,7 @@
                     alt="GitHub"
                   ></v-img
                 ></a>
-                <a href="https://medium.com/chartgerink">
+                <a href="https://medium.com/@chartgerink">
                   <v-img
                     :src="require('../assets/noun_write_794738_FFFFFF.png')"
                     max-height="40px"
